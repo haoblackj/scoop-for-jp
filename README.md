@@ -1,9 +1,9 @@
 # Scoop for jp
 
-日本語環境で使用するポータブルアプリやフォントなどを寄せ集めた[Scoop](https://github.com/lukesampson/scoop)の非公式Bucketです。  
+日本語環境で使用するポータブルアプリやフォントなどを寄せ集めた[Scoop](https://github.com/lukesampson/scoop)の非公式Bucketです。
 非技術者含む幅広い日本人を対象した、`main`や`extras`など基本的なBucketの拡張にすることを目的としています。
 
-※ このリポジトリは以下の後継になります。  
+※ このリポジトリは以下の後継になります。
 [rkbk60/scoop-for-jp](https://github.com/rkbk60/scoop-for-jp.git)
 
 ## 収録Manifest
@@ -28,7 +28,7 @@
 
 Bucket有効化
 ```
-scoop bucket add jp https://github.com/dooteeen/scoop-for-jp
+scoop bucket add jp https://github.com/haoblackj/scoop-for-jp
 ```
 
 アプリの追加

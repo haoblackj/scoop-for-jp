@@ -1,6 +1,6 @@
 param(
     # overwrite upstream param
-    [String]$upstream = "dooteeen/scoop-for-jp:master"
+    [String]$upstream = "haoblackj/scoop-for-jp:master"
 )
 if(!$env:SCOOP_HOME) { $env:SCOOP_HOME = resolve-path (split-path (split-path (scoop which scoop))) }
 $autopr = "$env:SCOOP_HOME/bin/auto-pr.ps1"
