@@ -19,6 +19,8 @@
 - Myrica: `myrica`
 - MyricaM: `myrica-m`
 - Source Han Code JP: `source-han-code-jp`
+- common-fonts: `common-fonts`
+- home-fonts: `home-fonts`
 
 ### 収録終了
 - Nyagos: mainバケット収録のため
