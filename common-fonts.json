@@ -1,0 +1,29 @@
+{
+    "homepage": "https://github.com/haoblackj/dotfiles-private",
+    "description": "Japanese font for writing",
+    "license": "OFL-1.1",
+    "depends": [
+        "jp-util-font"
+    ],
+
+    "version": "1.3.0",
+    "url": "https://github.com/haoblackj/dotfiles-private/releases/latest/downloads/v1.3.0.zip",
+    "hash": "a7a653cbc024691b9eccc1b2d2f9261d7d5ac1ac48a312cb2186fe9081900e65",
+    "checkver": {
+        "url": "https://github.com/haoblackj/dotfiles-private/releases/latest",
+        "re": "downloads/(?<version>[\\d.]+).zip"
+    },
+    "autoupdate": {
+        "url": "https://github.com/haoblackj/dotfiles-private/releases/latest/downloads/v$version.zip",
+        "extract_dir": "private-fonts-v$version"
+    },
+
+    "extract_dir": "private-fonts-v1.3.0",
+    "installer": {
+        "script": "jp-util-font $true $dir\\common '*.ttf'"
+    },
+    "uninstaller": {
+        "script": "jp-util-font $false $dir\\common '*.ttf'"
+    }
+}
+
